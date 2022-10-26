@@ -4,7 +4,7 @@
 html {
     font-family: "Raleway", sans-serif;
   }
-h1 h2 { font-size: var(--font-size-large);}
+h1 h2 p { font-size: large;}
 
 header {
   display: flex;
@@ -18,7 +18,7 @@ header #logo {
 }
 header #logo img {
   width: auto;
-  height: 60px;
+  height: 30px;
 }
 
 #filtre {
@@ -26,13 +26,13 @@ header #logo img {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  row-gap: 10px;
+  row-gap: 20px;
 }
 
 #filtre .filtre-box {
-  margin: 0px 10px;
+  margin: 0px 20px;
   border-radius: 30px;
-  border: 2px solid var(--grey);
+  border: 2px solid#F2F2F2;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -41,11 +41,11 @@ header #logo img {
 }
 
 #filtre .filtre-box i {
-  background-color: var(--light-blue);
+  background-color: #DEEBFF;
   height: 50px;
   width: 50px;
   border-radius: 100%;
-  color: var(--blue);
+  color: #0065fc;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,10 +53,49 @@ header #logo img {
 
 #filtre .filtre-box:hover {
   transition: background-color 1s;
-  background-color: var(--light-blue);
+  background-color: #DEEBFF;
 }
 
 #filtre .filtre-box .text {
   padding: 0px 10px;
 }
 
+.info {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  align-items: center;
+  width: 100%;
+}
+.info .fa-solid.fa-info {
+  color: #0065fc;
+  border: 1px solid #F2F2F2;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.icon .fa-solid.fa-location-dot{
+  color: black;
+  border:5px solid #F2F2F2 ;
+  border-radius: 100%;
+}
+.search-box {
+  display: flex;
+  border: 1px solid#F2F2F2 ;
+  border-radius: 2px;
+  width:auto;
+  margin-bottom: 30px;
+}
+.search-box .form-icon {
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-radius:10px;
+}
