@@ -4,3 +4,59 @@
 html {
     font-family: "Raleway", sans-serif;
   }
+h1 h2 { font-size: var(--font-size-large);}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header #logo {
+  padding: 25px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header #logo img {
+  width: auto;
+  height: 60px;
+}
+
+#filtre {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+#filtre .filtre-box {
+  margin: 0px 10px;
+  border-radius: 30px;
+  border: 2px solid var(--grey);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+#filtre .filtre-box i {
+  background-color: var(--light-blue);
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#filtre .filtre-box:hover {
+  transition: background-color 1s;
+  background-color: var(--light-blue);
+}
+
+#filtre .filtre-box .text {
+  padding: 0px 10px;
+}
+
