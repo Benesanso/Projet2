@@ -69,3 +69,25 @@ html, body{
   border-color:black;
   color:#0065fc
 }
+
+#box-hebergement{
+
+
+ align-content: center;
+  flex-wrap: wrap;}
+
+
+.card-herbergement-picture-img{
+  width: 200px;
+}
+
+.card-top-hebergement{
+  display: flex;
+  flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;}
+
+.card-hebergement{
+  flex-direction: row;
+flex-wrap: nowrap;
+}
