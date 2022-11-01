@@ -1,11 +1,3 @@
-.header{
-border-bottom: solid #0065fc;
-}
-
-.section{
-   border-bottom:solid black;}
-
-
 
 .menu  {
   display: flex;
@@ -67,27 +59,105 @@ html, body{
   text-align:center;
   border-radius:400px ;
   border-color:black;
-  color:#0065fc
+  
 }
 
 #box-hebergement{
-
-
  align-content: center;
-  flex-wrap: wrap;}
+  flex-wrap: wrap;
+justify-content:space-between;}
 
-
-.card-herbergement-picture-img{
-  width: 200px;
+.box-marseille{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width  :600px;
+  height : 600px;
 }
+
+.card-herbergement-picture{
+  width: 100px;
+}
+img {
+  width:80px;
+  height: 80px;
+ }
+
+
 
 .card-top-hebergement{
   display: flex;
   flex-direction: row;
 flex-wrap: nowrap;
-justify-content: space-between;}
+justify-content:flex-start;
+}
 
-.card-hebergement{
+.card-down-hebergement{
+  display: flex;
   flex-direction: row;
 flex-wrap: nowrap;
+justify-content:flex-start;
+margin-top: 20px;}
+
+.card-hebergement{
+display: flex;
+flex-direction: column;
+align-content:stretch;
+flex-wrap: wrap;
 }
+
+.card1-box {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card2-box {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card3-box  {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card4-box  {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card5-box  {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card6-box  {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card1-box-pop{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.box-populaire{
+  display: flex;
+  flex-direction: column;
+  justify-content:right;
+}
+#box-activites{
+  display: flex;
+  flex-direction: column;
+}
+.card-activites{ 
+  display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+
+a:link 
+{ 
+ text-decoration:none; 
+color:black;
+} 
+
+#footer-box{ display: flex;
+flex-direction:row;
+justify-content: space-between;}
