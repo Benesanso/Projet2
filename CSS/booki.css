@@ -1,7 +1,7 @@
 /*général*/
 @import "normalize.css";
 @import "header.css";
-
+@import "search.css";
 
 :root{ 
   --blue: #0065FC;
@@ -15,43 +15,3 @@ max-width: 1400px;
 margin:auto;
 }
 
-/*main*/
-
-.section1{
-  border:#0065FC 1px solid;
-  margin: 50px;
-  padding: 20px;
-}
-
-h1{
-  border:#fc0082 1px solid;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-p{
-  border:#00fc11 1px solid;
-}
-
-
-form{
-  border:#fc001d 1px solid;
-}
-
-i{
-  border: 2px solid;
-  color: #0065FC;
-  background-color: #f2f2f2;
-}
-input{
-  border-color:#f2f2f2;
-  
-}
-
-button{
-  border-left: none;
-  border-color: transparent;
-  border-radius: 5px;
-  background-color: #0065FC;
-  color: white;
-}
