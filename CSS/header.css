@@ -1,39 +1,40 @@
 
 /*header*/
 header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:20px;
 }
 
 header ul{
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
-  gap: 40px;
+display: flex;
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+gap: 40px;
 }
 
 header a{
-  text-decoration: none;
-  color: black;
-  font-size: 14px;
-  text-align: center;
+text-decoration: none;
+color: black;
+font-size: 14px;
+text-align: center;
 }
 
 img{
-  width: 45px;
-  height: 15px;
+width: 25%;
 }
 
-a:active{
-  color: #0065FC;
+na{
+margin:16px 40px;
 }
 
 a:hover{
-  border-top:#0065FC 3px solid;
-  padding-top: 35px;
+color:#0065FC;
+border-top:#0065FC 3px solid;
+padding-top: 35px;
 }
+
 
 
