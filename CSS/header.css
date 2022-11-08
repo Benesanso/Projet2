@@ -20,17 +20,18 @@ text-decoration: none;
 color: black;
 font-size: 14px;
 text-align: center;
+padding: 15px;
 }
 
 img{
 width: 25%;
 }
 
-na{
+nav {
 margin:16px 40px;
 }
 
-a:hover{
+a:hover {
 color:#0065FC;
 border-top:#0065FC 3px solid;
 padding-top: 35px;
