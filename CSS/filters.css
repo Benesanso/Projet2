@@ -5,21 +5,17 @@ padding:20px;
 }
 
 .section2 article h2{
-padding-left: 35px;
+padding-left: 40px;
 font-size: 18px;
 font-weight: bold;
-}
-
-h2{
-margin: 10px;
+margin-top: 7px;
 }
 
 .section2 article span {
 display: flex;
 gap: 80px;
 padding-left: 35px;
-margin-bottom: 20px;
-
+margin-bottom: 0px;
 }
 
 .section2 article span i{
@@ -27,21 +23,52 @@ color: #0065FC;
 }
 
 .section2 article span div{
-border: 3px #F2F2F2 solid;
+display: flex;
+border: 2px #F2F2F2 solid;
 border-radius: 20px;
 padding: 10px;
+width: auto;
+height: 30%;
 }
+
 .section2 article span div:hover{
-    background-color: #deebff;
+background-color: #deebff;
 }
+
 article{
 display: flex;
 }
 
 .filter{
-    text-decoration: none;
-    color: black;
-    font-weight:bold;
-    font-size: 14px;
+text-decoration: none;
+color: black;
+font-weight:bold;
+font-size: 14px;
 }
+
+.section2 div {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.section2 .info i{
+border: #F2F2F2 solid 2px;
+border-radius: 20px;
+width: 20px;
+height: 20px;
+text-align:center;
+font-size: 12px;
+color:#0065FC;
+}
+
+.section2 .info p{
+display: flex;
+flex-direction: row;
+align-items:center;
+gap:10px;
+padding:20px;
+margin: 0px 0px 0px 20px;
+}
+
 
