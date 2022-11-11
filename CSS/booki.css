@@ -11,8 +11,9 @@
   font-family: 'Raleway', sans-serif;
 }
 
+/*corps de page général*/
 body{ 
-max-width: 1400px;
-margin:auto;
+  max-width: 1400px;
+  margin:auto;
 }
 
