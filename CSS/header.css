@@ -32,7 +32,7 @@ img{
 }
 
 /*effet du menu*/
-.menu:hover {
+header nav ul li a:hover {
     color:#0065FC;
     border-top:#0065FC 3px solid;
     padding-top: 35px;
