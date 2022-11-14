@@ -69,10 +69,11 @@ article span div a{
     color:#0065FC;
 }
 
-.section2 .info p{
+.section2 .info {
     display: flex;
     flex-direction: row;
     align-items:center;
+    justify-content: center;
     gap:10px;
     padding:20px;
     margin: 0px 0px 0px 20px;

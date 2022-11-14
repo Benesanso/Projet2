@@ -34,7 +34,7 @@ form{
 form input{
     outline: none;
     border: none;
-    margin-left: 15px;
+    margin-left: 12px;
 }
 
 input::placeholder {
@@ -64,6 +64,6 @@ form button{
     width: 32px;
     padding: 0px 15px 0px 0px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items:center;
 }
