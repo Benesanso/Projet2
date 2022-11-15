@@ -1,9 +1,10 @@
 .section3{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding:20px 20px 0px 50px;
-    width: min-content;
+    align-content: space-between;
+    flex-direction: row;
+    padding:20px 70px 0px 50px;
+    margin: 0px 0px 0px 0px;
+    gap: 50px;
 }
 
 .section3 .boxhome{
@@ -12,6 +13,7 @@
   background: #F2F2F2;
   border-radius: 25px;
   padding-left: 25px;
+  margin: 0px 0px 0px 0px;
 }
 
 .section3 .boxhome h2{
@@ -19,6 +21,7 @@
     font-size: 17px;
     font-weight: bold;
     padding-left: 10px;
+    margin: 20px 0px 10px 0px;
 }
 
 .cardhome{
@@ -63,6 +66,16 @@ figcaption P{
     margin: 4px 0px 4px 15px;
 }
 
+.boxhome div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.boxhome div{
+    margin-bottom: 20px;
+}
+
 .star{
     font-size: x-small;
     color: #0065FC;
@@ -72,3 +85,39 @@ figcaption P{
 .clair{
     color: #F2F2F2;
 }
+
+.boxpop{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+    width: 70%;
+    background: #F2F2F2;
+    border-radius: 25px;
+    padding:0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.boxpop .boxtitle{
+    display: flex;
+    flex-direction: row;
+    border: gold solid 1px;
+    justify-content: space-around;
+}
+
+.boxpop .boxtitle h2{
+    font-size:17px ;
+}
+
+.boxpop .boxtitle  .courbe{
+    padding-top: 15px;
+    color: #0065FC;
+}
+
+.cardpop{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
