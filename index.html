@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="/CSS/booki.css">
+	<link rel="stylesheet" type="text/css" href="CSS/booki.css">
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
 	<!--google fonts-->
 	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -40,9 +40,9 @@
 	<p>En plein centre-ville ou en pleine nature</p>
 		<!--barre de recherche-->
 		<form>
-				<i class="fa-solid fa-location-dot"></i>
-				<input  class="input" type="text" placeholder="Marseille, France">
-				<button>Rechercher</button>
+			<div class="icone"><i class="fa-solid fa-location-dot"></i></div>
+			<input  class="input" type="text" placeholder="Marseille, France">
+			<button>Rechercher</button>
 		</form>
 		<!--fin barre de recherche-->
 </section>
@@ -53,89 +53,113 @@
 	<article><!--début de l'article-->
 		<h2>Filtres</h2><!--titre niveau h2-->
 			<!-- icones et ancrage-->
-			<span>
+			<div class="choix">
 				<div><i class="fa-solid fa-money-bill-wave"></i><a href="#">Economique</a></div>
 				<div><i class="fa-solid fa-person"></i><a href="#">Familial</a></div>
 				<div><i class="fa-solid fa-heart"></i><a href="#">Romantique</a></div>
 				<div><i class="fa-solid fa-dog"></i><a  href="#">Animaux autorisés</a> </div>
-			</span>
+			</div>
 			<!--fin icone et ancrage-->
 	</article><!--fin de l'article-->
 				<!--icone et paragraphe-->
-				<div class="info">   
-					<div><i class="fa-solid fa-info"></i></div> Plus de 500 logements sont disponibles dans cette ville
-				</div>	
-				<!--fin icone et paragraphe-->
+	<div class="info">   
+		<div><i class="fa-solid fa-info"></i></div> Plus de 500 logements sont disponibles dans cette ville
+	</div>			<!--fin icone et paragraphe-->
 </section>
 <!--fin deuxième section-->
 
 <!--début troisième section-->
 <section class="section3">
-<article class="boxhome">
-	<h2>title</h2>
+<div class="boxhome">
+	<h2>Hébergements à Marseille</h2>
 	<div class="cardhome">
 		<div class="bloccard">
-			<div class="card">
-				<figure></figure>
+			<article class="card">
+				<figure class="picture">
+					<img src="assets/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+					class="card-picture" alt="chambre lit superposés">
+				</figure>
 				<figcaption>
-					<h3></h3>
-					<p></p>
-					<i></i>
+					<h3>Auberge La Canebière</h3>
+					<p>Nuit à partir de 25 <strong>€</strong></p>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star clair"></i>
+					</div>
 				</figcaption>
-			</div>
-			<div class="card">
-				<figure></figure>
+			</article>
+			<article class="card">
+				<figure class="picture">
+					<img src="assets/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+					class="card-picture" alt="chambre deux lits simple">
+				</figure>
 				<figcaption>
-					<h3></h3>
-					<p></p>
-					<i></i>
+					<h3>Hôtel du port</h3>
+					<p>Nuit à partir de 52 <strong>€</strong></p>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star clair"></i>
+					</div>
 				</figcaption>
-			</div>
-			<div class="card">
-				<figure></figure>
+			</article>
+			<article class="card">
+				<figure class="picture">
+					<img src="assets/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+					class="card-picture" alt="chambre lit double et placard">
+				</figure>
 				<figcaption>
-					<h3></h3>
-					<p></p>
-					<i></i>
+					<h3>Hôtel Les mouettes</h3>
+					<p>Nuit à partir de 76 <strong>€</strong></p>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star clair"></i>
+					</div>
 				</figcaption>
-			</div>
+			</article>
 		</div>
-	</div>
-	<div class="cardhome">
 		<div class="bloccard">
-			<div class="card">
+			<article class="card">
 				<figure></figure>
 				<figcaption>
 					<h3></h3>
 					<p></p>
-					<i></i>
+					<div class="star"><i></i></div>
 				</figcaption>
-			</div>
-			<div class="card">
+			</article>
+			<article class="card">
 				<figure></figure>
 				<figcaption>
 					<h3></h3>
 					<p></p>
-					<i></i>
+					<div class="star"><i></i></div>
 				</figcaption>
-			</div>
-			<div class="card">
+			</article>
+			<article class="card">
 				<figure></figure>
 				<figcaption>
 					<h3></h3>
 					<p></p>
-					<i></i>
+					<div class="star"><i></i></div>
 				</figcaption>
-			</div>
+			</article>
 		</div>
 	</div>
 	<div><a href="#"></a></div>
-</article>
+</div>
 
 <article class="boxpop">
 	<div class="boxtitle">
 		<h2></h2>
-		<i></i>
+		<div class="star"><i></i></div>
 	</div>
 	<div class="cardpop">
 		<figure></figure>
@@ -144,7 +168,7 @@
 				<h3></h3>
 				<p></p>
 			</div>
-			<i></i>
+			<div class="star"><i></i></div>
 		</figcaption>
 	</div>
 	<div class="cardpop">
@@ -154,7 +178,7 @@
 				<h3></h3>
 				<p></p>
 			</div>
-			<i></i>
+			<div class="star"><i></i></div>
 		</figcaption>
 	</div>
 	<div class="cardpop">
@@ -164,7 +188,7 @@
 				<h3></h3>
 				<p></p>
 			</div>
-			<i></i>
+			<div class="star"><i></i></div>
 		</figcaption>
 	</div>
 </article>

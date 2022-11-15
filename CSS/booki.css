@@ -3,6 +3,7 @@
 @import "header.css";
 @import "search.css";
 @import "filters.css";
+@import "home.css";
 
 :root{ 
   --blue: #0065FC;

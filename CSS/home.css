@@ -1,0 +1,66 @@
+.section3{
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px 0px 50px;
+}
+
+.section3 .boxhome{
+  width: 200%;
+  margin: 10px;
+  background: #F2F2F2;
+  border-radius: 25px;
+  padding-left: 25px;
+}
+
+.section3 .boxhome h2{
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.cardhome{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    width:40%; 
+    height:40%;
+}
+
+.bloccard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.picture{
+    width: 200%;
+    height: 50%;
+}
+
+figcaption{
+    font-size: 14px;   
+}
+
+figcaption h3{
+     margin: 0px 0px 0px 0px;
+}
+
+figcaption P{
+    margin: 0px 0px 0px 0px;
+}
+
+.star{
+    color: #0065FC;
+}
+
+.clair{
+    color: #F2F2F2;
+}
