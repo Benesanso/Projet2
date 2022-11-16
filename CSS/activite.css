@@ -19,7 +19,8 @@
 .cardactivites{
     display: flex;
     flex-direction: column;
-    border: solid 2px #F2F2F2;
+    border: solid white;
+    box-shadow: #F2F2F2 1px 1px 1px 1px;
     border-radius: 25px;
     width: auto;
 }
@@ -27,6 +28,11 @@
 .cardactivites figure{
     margin: 0px 0px 0px 0px;
     width: 300%;
+}
+
+.cardactivites figure img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .boxactivites a{
