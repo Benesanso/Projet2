@@ -4,6 +4,8 @@
 @import "search.css";
 @import "filters.css";
 @import "home.css";
+@import "activite.css";
+@import "footer.css";
 
 :root{ 
   --blue: #0065FC;
