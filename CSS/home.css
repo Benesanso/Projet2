@@ -13,6 +13,7 @@
   background: #F2F2F2;
   border-radius: 25px;
   padding-left: 25px;
+  padding-right: 25px;
   margin: 0px 0px 0px 0px;
 }
 
@@ -21,7 +22,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    padding-left: 10px;
+    padding-left: 25px;
     margin: 20px 0px 10px 0px;
 }
 
@@ -67,20 +68,20 @@ figcaption h3{
     margin: 4px 0px 4px 15px;
 }
 
-figcaption P{
+figcaption p{
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     margin: 4px 0px 4px 15px;
 }
 
-.boxhome div a{
+.boxhome div a {
     text-decoration: none;
     color: black;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    margin: 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .boxhome div{
@@ -129,8 +130,8 @@ figcaption P{
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    width: 100%;
-    height: 25%;
+    width:420px;
+    height:180px;
 }
 
 /*carte populaire lien*/
@@ -142,39 +143,39 @@ figcaption P{
     border-radius: 20px;
     text-decoration: none;
     color: black;
-    width: 90%;
-    height: 60%;
-    
+    width: 343px;
+    height: 144px;
+    justify-content: center;
 }
 
 /*carte description*/
 .cardpop a figcaption{
     margin: 10px 0px 0px 0px;
-    width: 110%;
-    height: 100%;
+    width: 180px;
+    height: 144px;  
 }
 
 
 /*carte bloc image*/
 .cardpop figure {
-    
-    margin: 5px 0px 0px 0px;
+   
+    margin: 0px 0px 0px 0px;
     height: 120px;
-    width: 50%;
+    width: 40%;
 }
 
 /*image populaire*/
 .boxpop .cardpop figure img{
     object-fit: cover;
-    height: 80%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width:92%;
-    padding: 10px 5px 0px 5px;
+    width:137px;
+    height: 120px;
+    padding: 0px 0px 10px 0px;
 }
 
 /*icone star*/
 .boxpop figcaption div i{
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
