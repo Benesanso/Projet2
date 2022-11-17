@@ -1,7 +1,7 @@
 .section4{
     display:flex;
     flex-direction: column;
-    padding:30px 70px 0px 50px;
+    padding:30px 45px 0px 15px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -15,22 +15,24 @@
 
 .section4 h2{
     margin-left: 32px;
-    font-size: 17px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
 }
 .cardactivites{
     height: 100%;
     display: flex;
     flex-direction: column;
-    border: solid white;
-    box-shadow: #F2F2F2 1px 1px 1px 1px;
+    border: solid white 1px;
+    box-shadow: #F2F2F2 5px 3px 3px 1px;
     border-radius: 25px;
-    width: auto;
+    width: 90%;
 }
 
 .cardactivites figure{
-    
+    width: 101%;
     height: 390px;
-    display: block;
+    display: flex;
     margin: auto;
     margin: 0px 0px 0px 0px;
     
@@ -39,10 +41,10 @@
 
 .cardactivites figure img{
     object-fit: cover;
-    width: 101%;
+    width: 100%;
     height: 100%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .boxactivites a{
@@ -50,8 +52,10 @@
     text-decoration: none;
     width: 100%;
 }
-h3{
-   
+h3{ 
     color: black;
-    font-size: 13px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 10px;
 }

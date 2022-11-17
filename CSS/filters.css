@@ -8,8 +8,9 @@
 /*titre*/
 .section2 article h2{
     padding-left: 40px;
-    font-size: 17px;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
     margin-top: 7px;
 }
 
@@ -51,7 +52,9 @@ article .choix div a{
     text-decoration: none;
     color: black;
     font-weight:bold;
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .section2 .choix div {
@@ -68,7 +71,6 @@ article .choix div a{
     border-radius: 20px;
     width: 20px;
     height: 20px;
-    font-size: 12px;
     color:#0065FC;
 }
 
@@ -78,7 +80,9 @@ article .choix div a{
     align-items:center;
     padding-left: 40px;
     gap:10px;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 

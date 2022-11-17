@@ -9,7 +9,9 @@
 h1{
     display: flex;
     padding-left: 40px;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
     font-weight: bold;
 }
 /*paragraphe*/
@@ -18,12 +20,16 @@ h1{
     padding-left: 40px;
     margin-bottom: 20px;
     margin-top: 0px;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
 /*fonction barre de recherche*/
 form{
     display: flex;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
     margin-left: 40px;
     margin-bottom: 15px;
 }
@@ -36,7 +42,7 @@ form input{
 input::placeholder {
     color:black;
     font-weight: bold;
-    font-size: 14px;
+   
 }
 
 form button{
@@ -47,8 +53,9 @@ form button{
     color:white;
     padding: 0px 10px;
     cursor: pointer;
-    font: bold 12px Raleway;
-    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .section1 form .icone{
