@@ -3,7 +3,8 @@
     flex-direction: row;
     gap: 150px;
     background-color: #F2F2F2;
-    width: 92%;
+    width: 1320px;
+    height: 225px;
     padding:0px 0px 0px 0px;
     margin: 20px 0px 0px 47px;
 }
@@ -19,6 +20,8 @@ footer h3{
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    width: 200px;
+    height: 21px;
 }
 
 footer ul {
@@ -28,7 +31,7 @@ footer ul {
 
 footer li {
     list-style: none;
-    padding-bottom: 6px;
+    padding-bottom: 20px;
 }
 
 footer li a {

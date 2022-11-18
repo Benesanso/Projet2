@@ -8,7 +8,8 @@
 
 /*bloc hébergement*/
 .section3 .boxhome{
-  width: 200%;
+  width: 880px ;
+  height: 626px;
   margin: 10px;
   background: #F2F2F2;
   border-radius: 25px;
@@ -24,6 +25,8 @@
     line-height: 26px;
     padding-left: 25px;
     margin: 20px 0px 10px 0px;
+    width: 300px;
+    height: 26px;
 }
 
 .cardhome{
@@ -34,9 +37,9 @@
     flex-direction: column;
     margin: 10px;
     background-color: white;
-    border-radius: 10px;
-    width: 30%; 
-    height: 100%;
+    border-radius: 20px;
+    width: 246px; 
+    height: 215px;
 }
 
 .bloccard{
@@ -47,18 +50,17 @@
 }
 
 figure.picture{
-    height: 130px;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
 }
 
 figure.picture img{
-    object-fit: cover;
-    height: 100%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    width:100%;
+    object-fit: cover;  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 124px;
+    width: 246px;
 }
 
 figcaption h3{
@@ -104,7 +106,8 @@ figcaption p{
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 70%; 
+    width: 420px;
+    height: 625px; 
 }
 
 /*box titre populaire et icone*/
@@ -112,6 +115,8 @@ figcaption p{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 420px;
+    height: 26px;
 }
 
 .boxpop .boxtitle h2{
@@ -129,9 +134,7 @@ figcaption p{
 .cardpop{
     display: flex;
     justify-content: center;
-    box-sizing: border-box;
-    width:420px;
-    height:180px;
+    margin-top: 20px;
 }
 
 /*carte populaire lien*/
@@ -151,17 +154,15 @@ figcaption p{
 /*carte description*/
 .cardpop a figcaption{
     margin: 10px 0px 0px 0px;
-    width: 180px;
+    width: 320px;
     height: 144px;  
 }
 
 
 /*carte bloc image*/
 .cardpop figure {
-   
-    margin: 0px 0px 0px 0px;
-    height: 120px;
-    width: 40%;
+   box-sizing: border-box;
+   margin: 0px 0px 0px 0px;
 }
 
 /*image populaire*/
@@ -171,7 +172,7 @@ figcaption p{
     border-bottom-left-radius: 20px;
     width:137px;
     height: 120px;
-    padding: 0px 0px 10px 0px;
+    padding: 10px;
 }
 
 /*icone star*/

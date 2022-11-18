@@ -9,8 +9,7 @@
     height: 50%;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    margin-left: 32px;
+    gap: 35px;
 }
 
 .section4 h2{
@@ -20,23 +19,22 @@
     line-height: 26px;
 }
 .cardactivites{
-    height: 100%;
     display: flex;
     flex-direction: column;
     border: solid white 1px;
     box-shadow: #F2F2F2 5px 3px 3px 1px;
-    border-radius: 25px;
-    width: 90%;
+    border-radius: 20px;
+    width: 302px;
+    height: 444px;
+    margin-left: 35px;
 }
 
 .cardactivites figure{
-    width: 101%;
+    width: 100%;
     height: 390px;
     display: flex;
     margin: auto;
-    margin: 0px 0px 0px 0px;
-    
-   
+    margin: 0px 0px 0px 0px;  
 }
 
 .cardactivites figure img{
@@ -48,10 +46,11 @@
 }
 
 .boxactivites a{
-    height: 100%;
     text-decoration: none;
-    width: 100%;
+    width: 302px;
+    height: 444px;
 }
+
 h3{ 
     color: black;
     font-weight: 700;
