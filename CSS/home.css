@@ -43,7 +43,6 @@
 }
 
 .bloccard{
-    height: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -52,7 +51,6 @@
 figure.picture{
     display: flex;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 figure.picture img{
@@ -67,14 +65,14 @@ figcaption h3{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    margin: 4px 0px 4px 15px;
+    margin: 10px 0px 4px 15px;
 }
 
 figcaption p{
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    margin: 4px 0px 4px 15px;
+    margin: 5px 0px 5px 15px;
 }
 
 .boxhome div a {
@@ -83,7 +81,7 @@ figcaption p{
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
 }
 
 .boxhome div{
@@ -141,19 +139,17 @@ figcaption p{
 .cardpop a{
     display: flex;
     flex-direction: row;
-    align-items: center;
     background-color: white;
     border-radius: 20px;
     text-decoration: none;
     color: black;
     width: 343px;
-    height: 144px;
-    justify-content: center;
+    height: 140px;
 }
 
 /*carte description*/
 .cardpop a figcaption{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     width: 320px;
     height: 144px;  
 }
@@ -171,8 +167,8 @@ figcaption p{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     width:137px;
-    height: 120px;
-    padding: 10px;
+    height: 130px;
+    padding: 5px 5px 5px 5px;
 }
 
 /*icone star*/
