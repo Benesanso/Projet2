@@ -14,19 +14,19 @@
     margin-top: 13px;
 }
 
-/*bloc article*/
+/*bloc article icones*/
 .section2 article .choix {
     display: flex;
     gap: 60px;
     padding-left: 35px;
 }
-
+ /*couleur icone*/
 .section2 article .choix div i{
     color: #0065FC;
     margin-left: 10px;
 }
 
-/*bloc des div*/
+/*bloc des icones avec nom*/
 .section2 article .choix div{
     display: flex;
     border: 2px #F2F2F2 solid;
@@ -48,6 +48,7 @@ article{
     margin-bottom: 20px;
 }
 
+/*taille et decoration d'ancrage*/
 article .choix div a{
     text-decoration: none;
     color: black;
@@ -57,12 +58,14 @@ article .choix div a{
     line-height: 20px;
 }
 
+/*section information*/
 .section2 .choix div {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+/*disposition information icone et texte*/
 .section2 .info div{
     display: flex;
     justify-content:center;
@@ -73,7 +76,7 @@ article .choix div a{
     height: 20px;
     color:#0065FC;
 }
-
+/*mise en forme bloc information*/
 .section2 .info{
     display: flex;
     flex-direction: row;

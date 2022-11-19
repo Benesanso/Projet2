@@ -1,4 +1,6 @@
 /*général*/
+
+/*importation des fichiers css*/
 @import "normalize.css";
 @import "header.css";
 @import "search.css";
@@ -7,6 +9,7 @@
 @import "activite.css";
 @import "footer.css";
 
+/*couleur du site et font family*/
 :root{ 
   --blue: #0065FC;
   --light-blue: #DEEBFF;

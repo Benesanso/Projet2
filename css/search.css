@@ -45,6 +45,7 @@ input::placeholder {
     padding-left: 5px;
 }
 
+/*bouton rechercher*/
 form button{
     border: solid 2px #0065FC;
     border-bottom-right-radius: 15px;
@@ -58,6 +59,7 @@ form button{
     line-height: 21px;
 }
 
+/*icone localisation*/
 .section1 form .icone{
     display: flex;
     align-items: center;

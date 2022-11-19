@@ -1,3 +1,4 @@
+/*section hébergement*/
 .section3{
     display:flex;
     flex-direction: row;
@@ -18,6 +19,7 @@
   margin: 0px 0px 0px 0px;
 }
 
+/*titre hébergement*/
 .section3 .boxhome h2{
     display: flex;
     font-weight: 700;
@@ -29,10 +31,12 @@
     height: 26px;
 }
 
+/*bloc des 3 cards*/
 .cardhome{
     flex-direction: column;
 }
 
+/*card seule*/
 .card{
     flex-direction: column;
     margin: 10px;
@@ -42,17 +46,20 @@
     height: 215px;
 }
 
+/*bloc des 6 cards*/
 .bloccard{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+/*bloc cadre image*/
 figure.picture{
     display: flex;
     margin: auto;
 }
 
+/*image*/
 figure.picture img{
     object-fit: cover;  
     border-top-left-radius: 20px;
@@ -61,6 +68,7 @@ figure.picture img{
     width: 246px;
 }
 
+/*titre niveau 3*/
 figcaption h3{
     font-weight: 700;
     font-size: 16px;
@@ -68,6 +76,7 @@ figcaption h3{
     margin: 10px 0px 4px 15px;
 }
 
+/*paragraphe*/
 figcaption p{
     font-weight: 400;
     font-size: 14px;
@@ -75,25 +84,27 @@ figcaption p{
     margin: 5px 0px 5px 15px;
 }
 
+/*bloc description et star*/
 .boxhome div a {
     text-decoration: none;
     color: black;
-    font-weight: 700;
-    font-size: 18px;
     line-height: 21px;
     margin: 5px 5px 5px 5px;
 }
 
+/*espacement entre la 1ere et 2ieme ligne*/
 .boxhome div{
     margin-bottom: 20px;
 }
 
+/* forme des icones*/
 .star{
     font-size: x-small;
     color: #0065FC;
     margin: 4px 0px 4px 15px;
 }
 
+/*couleur dernière étoile*/
 .clair{
     color: #F2F2F2;
 }
@@ -117,12 +128,14 @@ figcaption p{
     height: 26px;
 }
 
+/*titre niveau 2 populaire*/
 .boxpop .boxtitle h2{
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
 }
 
+/*icone bloc popilaire*/
 .boxpop .boxtitle  .courbe{
     padding-top: 15px;
     color: #0065FC;
@@ -176,6 +189,7 @@ figcaption p{
     padding-top: 50px;
 }
 
+/*dernière ligne d'étoile à la dernière card populaire*/
 .end{
     margin: 22px 0px 0px 15px;
 }

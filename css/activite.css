@@ -1,3 +1,4 @@
+/*section 4 activités*/
 .section4{
     display:flex;
     flex-direction: column;
@@ -5,6 +6,7 @@
     margin: 0px 0px 0px 0px;
 }
 
+/*bloc avtiivité*/
 .boxactivites{
     height: 50%;
     display: flex;
@@ -12,12 +14,15 @@
     gap: 35px;
 }
 
+/*titre niveau 2*/
 .section4 h2{
     margin-left: 32px;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
 }
+
+/*card individuelle*/
 .cardactivites{
     display: flex;
     flex-direction: column;
@@ -29,6 +34,7 @@
     margin-left: 35px;
 }
 
+/*bloc image*/
 .cardactivites figure{
     width: 100%;
     height: 390px;
@@ -37,6 +43,7 @@
     margin: 0px 0px 0px 0px;  
 }
 
+/*image*/
 .cardactivites figure img{
     object-fit: cover;
     width: 100%;
@@ -45,12 +52,14 @@
     border-top-right-radius: 20px;
 }
 
+/*lien*/
 .boxactivites a{
     text-decoration: none;
     width: 302px;
     height: 444px;
 }
 
+/*titre niveau 3*/
 h3{ 
     color: black;
     font-weight: 700;
