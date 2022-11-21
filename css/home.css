@@ -115,9 +115,11 @@ figcaption p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 30%;
+    padding: 0px 30px 20px 30px;
 }
 
 /*box titre populaire et icone*/
@@ -127,6 +129,7 @@ figcaption p{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 /*titre niveau 2 populaire*/
@@ -146,8 +149,8 @@ figcaption p{
 /*carte populaire*/
 .cardpop{
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 /*carte populaire lien*/
@@ -155,41 +158,40 @@ figcaption p{
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 90%;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     text-decoration: none;
     color: black;
 }
 
-/*carte description*/
-
-
-
 /*carte bloc image*/
 .cardpop figure {
-   
    margin: 0px 0px 0px 0px;
    width: 30%;
-   height: 94%;
 }
 
 /*image populaire*/
 .boxpop .cardpop figure img{
     object-fit: cover;
+    object-position: center;
     width: 100%;
-    height: 94%;
+    height: 122px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 0px 5px;
 }
 
+.boxpop figcaption{
+    width: 60%;
+    margin-left: 10px;
+}
 /*icone star*/
 .boxpop figcaption div i{
     padding-top: 50px;
 }
 
 /*dernière ligne d'étoile à la dernière card populaire*/
-.end{
-    margin: 22px 0px 0px 15px;
-}
+
 
