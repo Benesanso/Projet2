@@ -5,12 +5,12 @@
     padding:20px 70px 0px 50px;
     margin: 0px 0px 0px 0px;
     gap: 50px;
+    width: 100%;
 }
 
 /*bloc hébergement*/
 .section3 .boxhome{
-  width: 880px ;
-  height: 626px;
+  width: 70%;
   margin: 10px;
   background: #F2F2F2;
   border-radius: 25px;
@@ -26,9 +26,7 @@
     font-size: 22px;
     line-height: 26px;
     padding-left: 25px;
-    margin: 20px 0px 10px 0px;
-    width: 300px;
-    height: 26px;
+    margin: 35px 0px 10px 0px;
 }
 
 /*bloc des 3 cards*/
@@ -42,8 +40,7 @@
     margin: 10px;
     background-color: white;
     border-radius: 20px;
-    width: 246px; 
-    height: 215px;
+    width: 100%;
 }
 
 /*bloc des 6 cards*/
@@ -51,6 +48,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 /*bloc cadre image*/
@@ -61,11 +59,12 @@ figure.picture{
 
 /*image*/
 figure.picture img{
+    width: 100%;
+    height: 130px;
     object-fit: cover;  
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 124px;
-    width: 246px;
+ 
 }
 
 /*titre niveau 3*/
@@ -88,20 +87,22 @@ figcaption p{
 .boxhome div a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
     line-height: 21px;
     margin: 5px 5px 5px 5px;
 }
 
-/*espacement entre la 1ere et 2ieme ligne*/
-.boxhome div{
-    margin-bottom: 20px;
+.boxhome div .afficherplus{
+    display: flex;
+    width: 100%;
+    margin-left: 25px;
 }
 
 /* forme des icones*/
 .star{
     font-size: x-small;
     color: #0065FC;
-    margin: 4px 0px 4px 15px;
+    margin-left:15px;
 }
 
 /*couleur dernière étoile*/
@@ -113,10 +114,10 @@ figcaption p{
 .boxpop{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 420px;
-    height: 625px; 
+    width: 30%;
 }
 
 /*box titre populaire et icone*/
@@ -124,8 +125,8 @@ figcaption p{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 420px;
-    height: 26px;
+    align-items: center;
+    width: 100%;
 }
 
 /*titre niveau 2 populaire*/
@@ -133,11 +134,12 @@ figcaption p{
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
+    padding-top: 15px;
 }
 
 /*icone bloc popilaire*/
 .boxpop .boxtitle  .courbe{
-    padding-top: 15px;
+    padding-top: 20px;
     color: #0065FC;
 }
 
@@ -145,7 +147,7 @@ figcaption p{
 .cardpop{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*carte populaire lien*/
@@ -153,34 +155,31 @@ figcaption p{
     display: flex;
     flex-direction: row;
     background-color: white;
+    width: 90%;
     border-radius: 20px;
     text-decoration: none;
     color: black;
-    width: 343px;
-    height: 140px;
 }
 
 /*carte description*/
-.cardpop a figcaption{
-    margin: 0px 0px 0px 0px;
-    width: 320px;
-    height: 144px;  
-}
+
 
 
 /*carte bloc image*/
 .cardpop figure {
-   box-sizing: border-box;
+   
    margin: 0px 0px 0px 0px;
+   width: 30%;
+   height: 94%;
 }
 
 /*image populaire*/
 .boxpop .cardpop figure img{
     object-fit: cover;
+    width: 100%;
+    height: 94%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width:137px;
-    height: 130px;
     padding: 5px 5px 5px 5px;
 }
 
