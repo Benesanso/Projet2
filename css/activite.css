@@ -10,7 +10,7 @@
 .boxactivites{
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 65px;
 }
 
 /*titre niveau 2*/
@@ -30,12 +30,13 @@
     box-shadow: #F2F2F2 5px 3px 3px 1px;
     border-radius: 20px;
     width: 100%;
+    height: 400px;
     margin-left: 50px;
 }
 
 /*bloc image*/
 .cardactivites figure{
-    height: 390px;
+    height: 360px;
     display: flex;
     margin: auto;
     margin: 0px 0px 0px 0px;  

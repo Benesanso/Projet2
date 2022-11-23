@@ -13,16 +13,21 @@
     font-size: 18px;
     line-height: 21px;
     margin-top: 13px;
+    width: 5%;
 }
+
 
 /*bloc article icones*/
 .section2 article .choix {
     display: flex;
-    gap: 60px;
+    justify-content:space-around;
+    width: 65%;
+    gap: 0px;
     padding-left: 35px;
 }
  /*couleur icone*/
 .section2 article .choix div i{
+    display: flex;
     color: #0065FC;
     margin-left: 10px;
 }
@@ -46,17 +51,20 @@
 /*bloc article*/
 article{
     display: flex;
+    width: 100%;
     margin-bottom: 20px;
 }
 
 /*taille et decoration d'ancrage*/
 article .choix div a{
+    display: flex;
     text-decoration: none;
     color: black;
     font-weight:bold;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
+    width: 100%;
 }
 
 /*section information*/
@@ -88,6 +96,7 @@ article .choix div a{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    width: 100%;
 }
 
 
