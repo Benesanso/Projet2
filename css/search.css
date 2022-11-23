@@ -43,6 +43,7 @@ form input{
 input::placeholder {
     color:black;
     font-weight: bold;
+    opacity: 1; /*pour que se soit en gras sur firefox*/
 }
 
 /*bouton rechercher*/
