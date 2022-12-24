@@ -19,8 +19,68 @@
 
 /*corps de page général*/
 body{ 
-  height: 100vh;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: auto;
 }
 
+
+@media screen and (max-width:993px){
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 20px 0px 20px;
+  margin-top: 2px;
+  width: 100%;
+ }
+ 
+nav {
+ margin:16px 0px;
+ }
+ 
+ .section2 article .choix {
+  width: 100%;
+ }
+ 
+ .section2 .info{
+  gap:30px;
+  width: 100%;
+ }
+ 
+ .section3{
+  width: 95%;
+  display:flex;
+  flex-direction:column;
+  padding:0px 20px 0px 40px;
+ }
+ 
+ .section3 .boxhome{
+   width:100%;
+ }
+ 
+ .boxpop{
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  gap: 20px;
+ }
+ .boxpop .boxtitle{
+  margin: 0px;
+}
+
+ .cardpop{
+  width: 27%;
+  margin: 0px 0px 40px 0px;
+ }
+ 
+.section4{
+  width: 100%;
+ }
+ 
+ .section5{
+  gap: 100px;
+  width: 100%;
+ }
+ }
