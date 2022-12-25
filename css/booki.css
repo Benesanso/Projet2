@@ -57,6 +57,7 @@ nav {
  
  .section3 .boxhome{
    width:100%;
+   padding-bottom: 30px;
  }
  
  .boxpop{
@@ -67,7 +68,9 @@ nav {
   gap: 20px;
  }
  .boxpop .boxtitle{
-  margin: 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  justify-content: space-between;
 }
 
  .cardpop{
