@@ -2,77 +2,73 @@
 .section3{
     display:flex;
     flex-direction: row;
-    padding:20px 70px 0px 50px;
-    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 100%;
     gap: 50px;
-  
+    padding:0px 20px 0px 60px; 
 }
 
 /*bloc hébergement*/
 .section3 .boxhome{
   width: 70%;
-  margin: 10px;
+  height: 550px;
   background: #F2F2F2;
   border-radius: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin: 0px 0px 0px 0px;
 }
 
 /*titre hébergement*/
 .section3 .boxhome h2{
-    display: flex;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    padding-left: 25px;
-    margin: 35px 0px 10px 0px;
+    box-sizing: border-box;
+    margin: 20px 0px 0px 35px;
 }
 
 /*bloc des 3 cards*/
 .cardhome{
     flex-direction: column;
+    padding: 30px 20px 0px 20px;
 }
 
 /*card seule*/
 .card{
     flex-direction: column;
-    margin: 10px;
     background-color: white;
     border-radius: 20px;
-    width: 100%;
 }
 
 /*bloc des 6 cards*/
 .bloccard{
-    display: flex;
+    display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 30px;
+    gap: 10px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
 }
 
 /*bloc cadre image*/
 figure.picture{
     display: flex;
-    margin: auto;
+    margin: 3px 3px 0px 3px;
+ 
 }
 
 /*image*/
 figure.picture img{
     width: 100%;
-    height: 130px;
+    height: 90px;
     object-fit: cover;  
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
- 
 }
-
+ 
 /*titre niveau 3*/
 div h3{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    margin: 10px 0px 4px 15px;
+   margin:10px 10px 5px 15px;
 }
 
 /*paragraphe*/
@@ -80,7 +76,7 @@ div p{
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    margin: 5px 0px 5px 15px;
+    margin: 0px 0px 5px 15px;
 }
 
 /*bloc description et star*/
@@ -89,20 +85,21 @@ div p{
     color: black;
     font-weight: bold;
     line-height: 21px;
-    margin: 5px 5px 5px 5px;
+  
 }
 
 .boxhome div .afficherplus{
     display: flex;
     width: 100%;
-    margin-left: 25px;
+    margin: 0px 0px 0px 30px;
 }
 
 /* forme des icones*/
 .star{
     font-size: x-small;
     color: #0065FC;
-    margin-left:15px;
+    color: #0065FC;
+    margin: 0px 0px 3px 15px;
 }
 
 /*couleur dernière étoile*/
@@ -114,19 +111,19 @@ div p{
 .boxpop{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 30%;
-    padding: 0px 30px 20px 30px;
+    height: 550px;
+    padding: 0px 0px 0px 0px;
 }
 
 /*box titre populaire et icone*/
 .boxpop .boxtitle{
     display: flex;
-    justify-content: space-around;
+   justify-content: space-around;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     width: 100%;
 }
 
@@ -135,13 +132,10 @@ div p{
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    padding-top: 15px;
-    width: 80%;
 }
 
 /*icone bloc populaire*/
 .boxpop .boxtitle .courbe{
-    padding-top: 20px;
     color: #0065FC;
     width: 1%;
 }
@@ -149,8 +143,8 @@ div p{
 /*carte populaire*/
 .cardpop{
     display: flex;
+    box-sizing: content-box;
     width: 100%;
-    margin-bottom: 50px;
 }
 
 /*carte populaire lien*/
@@ -160,9 +154,14 @@ div p{
     background-color: white;
     align-items: center;
     width: 100%;
+    height: 120px;
     border-radius: 20px;
     text-decoration: none;
     color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    
 }
 
 /*carte bloc image*/
@@ -176,7 +175,7 @@ div p{
     object-fit:cover;
     object-position:center;
     width: 100%;
-    height: 122px;
+    height: 112px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 5px 5px 0px 5px;
@@ -184,7 +183,7 @@ div p{
 
 .boxpop div{
     width: 70%;
-    margin-left: 10px;
+
 }
 /*icone star*/
 .boxpop div div i{
@@ -192,8 +191,10 @@ div p{
 }
 /*description des cards*/
 div .carddescription{
+    text-overflow: ellipsis;
+    white-space: nowrap;
     width: 100%;
-    height: 50px;
+    height: 40px;
     margin: 0px;
 }
 

@@ -24,66 +24,73 @@ body{
 }
 
 
-@media screen and (max-width:993px){
+@media screen and (max-width:992px){
 
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:20px 20px 0px 20px;
-  margin-top: 2px;
-  width: 100%;
+  .section3{
+ 
+   display:flex;
+   flex-direction:column;
+   padding:0px 20px 0px 40px;
+  }
+  
+  .section3 .boxhome{
+    width:100%;
+  }
+  
+  .boxpop{
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 100%;
+   height: 230px;
+  }
+  .boxpop .boxtitle{
+   padding-left: 20px;
+   padding-right: 30px;
+   justify-content: space-between;
  }
  
-nav {
- margin:16px 0px;
- }
+  .cardpop{
+   width: 30%;
+   margin: 0px 0px 40px 0px;
+  }
+  .section4{
+   padding:20px 25px 0px 50px;
+  }
+  .section5{
+   gap: 15px;
+  }
+  }
  
- .section2 article .choix {
-  width: 100%;
- }
+  @media screen and (max-width:768px){
+   header{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+   }
  
- .section2 .info{
-  gap:30px;
-  width: 100%;
- }
+   figure{
+     margin: 20px 0px 40px 0px;
+     text-align: center;
+   }
  
- .section3{
-  width: 95%;
-  display:flex;
-  flex-direction:column;
-  padding:0px 20px 0px 40px;
- }
+   header nav ul {
+     display: flex;
+ width: 100%;
+ border-bottom: 3px solid #F2F2F2;
+ padding-bottom: 10px;
+ text-align: center;
+   }
+   header nav ul li a{
+     padding: 0px 120px 0px 110px;
+   }
  
- .section3 .boxhome{
-   width:100%;
-   padding-bottom: 30px;
- }
- 
- .boxpop{
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  gap: 20px;
- }
- .boxpop .boxtitle{
-  padding-left: 20px;
-  padding-right: 10px;
-  justify-content: space-between;
-}
-
- .cardpop{
-  width: 27%;
-  margin: 0px 0px 40px 0px;
- }
- 
-.section4{
-  width: 100%;
- }
- 
- .section5{
-  gap: 100px;
-  width: 100%;
- }
+   header nav ul li a:hover {
+    border-top:none; 
+     color:#0065FC;
+     border-bottom:#0065FC 3px solid;
+     width: 100%;
+     padding-bottom: 10px;
+  }
  }
